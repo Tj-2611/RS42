@@ -23,7 +23,7 @@ maturity is calculated by interpolating the zero-coupon interest rate curve from
 download the sensitivities, namely Vega, of the filtered SPX and VIX options from OptionMetrics.
 See our paper for more details. We have added two sample files in '/data/' just for reference (there is no real data).
 
-3. Download "Differential Evolution" by Markus Buehren. Unzip it and rename it as 'DE' in the directory of our project. 
+2. Download "Differential Evolution" by Markus Buehren. Unzip it and rename it as 'DE' in the directory of our project. 
 See [https://ww2.mathworks.cn/matlabcentral/fileexchange/18593-differential-evolution]
  
 ## What can these codes do:
