@@ -15,7 +15,6 @@ See [https://github.com/sigurdroemer/rough_volatility]
 ## To run the codes:
 1. You may first download the volatility surfaces data from OptionMetrics for SPX and VIX options and concatenate them to obtain two files:
 "surf_filt_liq.csv" and "vix_option_future.csv". You may move them into the directory '/data/' 
-See https://wrds-www.wharton.upenn.edu/pages/about/data-vendors/optionmetrics/ 
 For SPX options, each quote is matched with the closing prices of S\&P500 index, which is adjusted for dividends using the dividend rates
 in OptionMetrics. For VIX options, we consider VIX futures to be the underlying level whose prices are
 inferred from highly liquid options using ATM put–call parity. The risk-free interest rate for each option
