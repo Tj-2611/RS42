@@ -1,0 +1,2 @@
+date,symbol,exdate,cp_flag,K,t,mid_price,impl_volatility,vega,interest_rate,S,VIX,best_bid,best_offer,volume,log_mon,year
+1/1/2006,VIX.CC,3/20/2006,C,10,0.01,1,1,1,0.02,10,10,0.1,0.3,1,0.2,2006
