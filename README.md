@@ -1,5 +1,5 @@
 # RS42
-The repository contains the codes in the manuscript "4/2 Rough and Smooth" (see [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4909939])
+The repository contains the codes in the paper "4/2 Rough and Smooth" (see [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4909939])
 We sincerely thank the authors of the following works and their codes, which have greatly helped this research.
 > 1. Aït-Sahalia, Yacine, and Robert Kimmel. "Maximum likelihood estimation of stochastic volatility models." Journal of Financial Economics 83, no. 2 (2007): 413-452.
 See [https://www.princeton.edu/~yacine/research]
@@ -14,7 +14,8 @@ See [https://github.com/sigurdroemer/rough_volatility]
 
 ## To run the codes:
 1. You may first download the volatility surfaces data from OptionMetrics for SPX and VIX options and concatenate them to obtain two files:
-"surf_filt_liq.csv" and "vix_option_future.csv". You may move them into the directory '/data/' 
+"surf_filt_liq.csv" and "vix_option_future.csv". You may move them into the directory '/data/' .
+
 For SPX options, each quote is matched with the closing prices of S\&P500 index, which is adjusted for dividends using the dividend rates
 in OptionMetrics. For VIX options, we consider VIX futures to be the underlying level whose prices are
 inferred from highly liquid options using ATM put–call parity. The risk-free interest rate for each option
@@ -22,7 +23,7 @@ maturity is calculated by interpolating the zero-coupon interest rate curve from
 download the sensitivities, namely Vega, of the filtered SPX and VIX options from OptionMetrics.
 See our paper for more details. We have added two sample files in '/data/' just for reference (there is no real data).
 
-2. Download "Differential Evolution" by Markus Buehren. Unzip it and rename it as 'DE' in the directory of our project. 
+3. Download "Differential Evolution" by Markus Buehren. Unzip it and rename it as 'DE' in the directory of our project. 
 See [https://ww2.mathworks.cn/matlabcentral/fileexchange/18593-differential-evolution]
  
 ## What can these codes do:
